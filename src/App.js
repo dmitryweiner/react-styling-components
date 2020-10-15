@@ -2,6 +2,7 @@ import React from 'react';
 import Cat from './components/Cat';
 import Doggo from "./components/Doggo";
 import Octopus from "./components/Octopus";
+import Inline from "./components/Inline";
 
 
 class App extends React.Component {
@@ -19,6 +20,9 @@ class App extends React.Component {
 
                 <p>Этот стилизован с помощью модульных стилей</p>
                 <Doggo/>
+
+                <p>Этот с помощью inline стилей</p>
+                <Inline text="Некий произвольный текст"/>
             </div>
         </div>
     }
