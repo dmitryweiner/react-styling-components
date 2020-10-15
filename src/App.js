@@ -3,6 +3,7 @@ import Cat from './components/Cat';
 import Doggo from "./components/Doggo";
 import Octopus from "./components/Octopus";
 import Inline from "./components/Inline";
+import Birdie from "./components/Birdie";
 
 
 class App extends React.Component {
@@ -23,6 +24,9 @@ class App extends React.Component {
 
                 <p>Этот с помощью inline стилей</p>
                 <Inline text="Некий произвольный текст"/>
+
+                <p>Использование SASS</p>
+                <Birdie/>
             </div>
         </div>
     }

@@ -1,0 +1,15 @@
+$background: lightgray;
+$base-color: #c6538c;
+$dark: rgba($base-color, 0.7);
+$more-dark: rgba($base-color, 0.5);
+
+.birdie {
+  background-color: $background;
+  color: $base-color;
+  &-wing {
+    color: $dark;
+  }
+  &-tail {
+    color: $more-dark;
+  }
+}
