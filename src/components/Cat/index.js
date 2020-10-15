@@ -3,10 +3,10 @@ import cat from './cat.jpg';
 import './styles.css';
 
 /**
- * For incapsulated styles see
- * @see https://medium.com/@epilande/working-with-css-modules-a6b8aad37f3a
+ * Этот компонент стилизован с помощью подключаемых стилей из ./styles.css
  */
-
-export default () => {
-    return <img src={cat} className="cat-picture" />;
+const Cat = () => {
+    return <img src={cat} className="cat-picture" alt="cat"/>;
 };
+
+export default Cat;
